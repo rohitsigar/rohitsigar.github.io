@@ -781,8 +781,25 @@ a.fa.fa-angle-down:focus {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    display;
-    block;
+    display: block;
+    color: #FFF;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 40px;
+}
+.int-icon1 {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
     color: #FFF;
     font-size: 55px;
     text-align: center;
@@ -837,6 +854,27 @@ a.fa.fa-angle-down:focus {
     font-weight: 500;
 }
 
+#services1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    color: #000;
+}
+
+#services1 h3 {
+    font-weight: 400;
+}
+
+#services1 p {
+    font-size: 15px;
+    margin: 0px auto 40px auto;
+    max-width: 80%;
+}
+
+#services1 a {
+    font-weight: 500;
+}
+
 .icon {
     width: 50px;
     height: 50px;
@@ -847,8 +885,7 @@ a.fa.fa-angle-down:focus {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    display;
-    block;
+    display: block;
     color: #FFF;
     font-size: 36px;
     text-align: center;
@@ -1993,9 +2030,6 @@ ul.social-buttons li a:active {
     margin: 0 auto;
 }
 
-.modal-body p {
-    text-align: center;
-}
 
 @media (max-width: 340px) {
     .modal-body p {
@@ -2005,6 +2039,7 @@ ul.social-buttons li a:active {
 
 .modal-body p.visit {
     margin-top: 50px;
+    text-align: center;
 }
 
 .modal-body #visit-btn {
@@ -2063,6 +2098,13 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+.por1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
 .por{
     display: flex;
     flex-direction: row;
